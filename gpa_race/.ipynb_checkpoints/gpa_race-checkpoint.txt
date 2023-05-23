@@ -1,0 +1,41 @@
+dataset for initial classifier training: gpa_race 
+classifier: LGBMClassifier()
+number_iterations: 20
+multiplier: 50
+interior_classifier: rf
+
+fair_accuracy_mean: 0.8280791071078911
+fair_diff_mean: 0.1463432788210025
+fair_ratio_mean: 1.2007965918706778
+fair_var_mean: 0.17454882883958345
+fair_accuracy_std: 0.0
+fair_diff_std: 0.0
+fair_ratio_std: 0.0
+fair_var_std: 0.0
+
+unfair_accuracy_mean: 0.8445271196397102
+unfair_diff_mean: 0.19955659996172082
+unfair_ratio_mean: 1.3038410167159105
+unfair_var_mean: 0.26629726205997395
+unfair_accuracy_std: 0.0
+unfair_diff_std: 0.0
+unfair_ratio_std: 0.0
+unfair_var_std: 0.0
+
+(fair_accuracy-unfair_accuracy)_mean: -0.016448012531819045
+(fair_accuracy-unfair_accuracy)_std: 0.0
+(fair_diff-unfair_diff)_mean: -0.053213321140718306
+(fair_diff-unfair_diff)_std: 0.0
+(fair_ratio-unfair_ratio)_mean: -0.10304442484523268
+(fair_ratio-unfair_ratio)_std: 0.0
+(fair_variation-unfair_variation)_mean: -0.0917484332203905
+(fair_varitaion-unfair_variation)_std: 0.0
+
+fair_diff: [0.14634328]
+fair_ratio: [1.20079659]
+fair_variation: [0.17454883]
+fair_accuracy: [0.82807911]
+unfair_diff: [0.1995566]
+unfair_ratio: [1.30384102]
+unfair_variation: [0.26629726]
+unfair_accuracy: [0.84452712]

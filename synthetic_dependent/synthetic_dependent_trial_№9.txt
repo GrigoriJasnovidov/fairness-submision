@@ -1,0 +1,11 @@
+unfair_total_diff: 0.03132164871316201
+unfair_ratio: 1.0415641760882968
+unfair_variation: 0.1416069703386068
+unfair_accuracy: 0.83648
+fair_diff: 0.033815601125930295
+fair_ratio: 1.0450800622105865
+fair_variation: 0.13990954279466228
+fair_accuracy: 0.83376
+interior_classifier: rf 
+multiplier: 20 
+    

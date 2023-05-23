@@ -1,0 +1,17 @@
+unfair_diff: 0.20309609783293991
+unfair_ratio: 1.3021972058116635
+unfair_var: 0.23983998457682665
+unfair_accuracy: 0.8500097904836499
+fair_diff: 0.18660737081789713
+fair_ratio: 1.2633829748115462
+fair_var: 0.1940374403618994
+fair_accuracy: 0.8423732132367339
+interior_classifier: rf
+multiplier: 30
+main_state: 754
+unfair_discriminated_group_losses: [0.08780487804878048, 0.05121951219512195, 0.003658536585365854]
+fair_discriminated_group_losses: [0.07195121951219512, 0.03414634146341464, 0.014634146341463415]
+discrimanted_group_losses_improvement: [ 0.01585366  0.01707317 -0.01097561]
+unfair_discriminated_downgraded: 0.14268292682926828
+fair_discriminated_downgraded: 0.12073170731707317
+    

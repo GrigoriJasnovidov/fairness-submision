@@ -1,0 +1,13 @@
+dataset for initial classifier training: 200 
+classifier: LGBMClassifier()
+number_iterations: 10
+multiplier:25
+interior_classifier: knn
+fair_diff: [0.44184708 0.44557414 0.44234752]
+fair_ratio: [1.91292243 1.92251891 1.90709579]
+fair_variation: [0.51304215 0.51312173 0.50872952]
+fair_accuracy: [0.93648459 0.93732493 0.93683473]
+unfair_diff: [0.56663027 0.54860533 0.55503976]
+unfair_ratio: [3.09659248 2.90891676 2.86735599]
+unfair_variation: [0.72684057 0.70879619 0.6992173 ]
+unfair_accuracy: [0.93673669 0.93704482 0.93841737]
